@@ -1,0 +1,22 @@
+.img{
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  background-position: center;
+  background-size: 100%;
+  border: none;
+}
+.fs-12{
+  font-size: 12px;
+}
+.w-352{
+  width: 352px;
+  height: 110px;
+}
+.border-col{
+  border: 1px solid #dee2e6 !important;
+  border-radius: 5px;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
