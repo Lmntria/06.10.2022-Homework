@@ -211,6 +211,7 @@ a:hover {
 }
 .button-sell:hover{
   color: white !important;
+  
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {

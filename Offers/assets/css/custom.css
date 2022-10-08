@@ -1,0 +1,31 @@
+a{
+  text-decoration: none !important;
+  color: #1F2937 !important;
+}
+a:hover{
+  color: #009F7F !important;
+}
+.button-sell:hover{
+  color: white !important;
+}
+.m-lr-10{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.left-0{
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.right{
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.copy{
+  color: #009F7F !important;
+  cursor: pointer;
+}
+.w-90{
+  width: 90%;
+}

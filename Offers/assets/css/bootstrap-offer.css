@@ -121,6 +121,7 @@ h6, .h6 {
 
 p {
   margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 abbr[title],
@@ -3449,6 +3450,7 @@ textarea.form-control-lg {
   border-right: 0.3em solid transparent;
   border-bottom: 0;
   border-left: 0.3em solid transparent;
+  color: #009F7F;
 }
 .dropdown-toggle:empty::after {
   margin-left: 0;
@@ -3458,9 +3460,10 @@ textarea.form-control-lg {
   position: absolute;
   z-index: 1000;
   display: none;
-  min-width: 10rem;
+  min-width: 12rem;
   padding: 0.5rem 0;
   margin: 0;
+  height: 15rem;
   font-size: 1rem;
   color: #212529;
   text-align: left;
@@ -3675,7 +3678,6 @@ textarea.form-control-lg {
 }
 .dropdown-item:hover, .dropdown-item:focus {
   color: #1e2125;
-  background-color: #e9ecef;
 }
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
@@ -4282,7 +4284,7 @@ textarea.form-control-lg {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1rem 1rem;
+  padding: 1.5rem 1rem;
 }
 
 .card-title {
@@ -4349,7 +4351,9 @@ textarea.form-control-lg {
 .card-img,
 .card-img-top,
 .card-img-bottom {
-  width: 100%;
+  width: 110%;
+  align-self: center;
+  border-radius: 5px;
 }
 
 .card-img,
@@ -7112,6 +7116,10 @@ textarea.form-control-lg {
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
+}
+.py-6 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 
 .pt-0 {
