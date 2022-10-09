@@ -108,3 +108,25 @@
 .top-x{
   top: 76.6px;
 }
+.list-unstyled:hover{
+  cursor: pointer;
+}
+#left-button{
+  display: block;
+}
+#header{
+  display: block;
+}
+@media (max-width:992px) {
+  #left-button{
+    display: none;
+  }
+  #header{
+    display: none;
+  }
+  .col-xl-4 img{
+    width: 50%;
+  }
+
+  
+}

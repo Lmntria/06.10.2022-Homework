@@ -4437,7 +4437,7 @@ textarea.form-control-lg {
   }
 }
 .accordion-button:hover{
-  border: 1px solid rgba(128, 128, 128, 0.5);
+  color: #009F7F;
   transition: 0.5s;
 }
 .accordion-button:not(.collapsed) {
