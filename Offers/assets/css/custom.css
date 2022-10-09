@@ -29,3 +29,25 @@ a:hover{
 .w-90{
   width: 90%;
 }
+.h-btn{
+  width:90px ;
+  height:96px;
+  border: none;
+  z-index: 3;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.h-btn-position{
+  right: 0% !important;
+  top:45% !important;
+}
+.btn-bg{
+  background-color: #009F7F;
+}
+.card-wh{
+  height: 30px;
+}
+.top{
+  top: -12px !important;
+  left: 5% !important;
+}
